@@ -19,6 +19,7 @@
 .button {
   cursor: pointer;
 }
+
 .bw1 {
   font-family: Roboto;
   font-size: 16px;
@@ -29,6 +30,7 @@
 }
 .body {
   color: white;
+  text-align: center;
   background: #2f303a;
 }
 .title {
@@ -48,6 +50,7 @@ h2 {
   font-weight: 700;
   line-height: 2.63;
   color: #212121;
+  text-align: center;
 }
 .p1 {
   font-weight: 400;
@@ -80,14 +83,24 @@ h2 {
 .container {
   display: flex;
   width: 1200px;
-  margin: 0 auto;
+  margin: auto;
   padding-left: 15px;
   padding-right: 15px;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
 }
 
-.container .block {
-  justify-content: center;
+.block {
+  display: flex;
+  box-sizing: border-box;
+  width: 370px;
+  height: 404px;
+  left: 1015px;
+  top: 262px;
+  background: #ffffff;
 }
+
 .section {
   padding-top: 94px;
   padding-bottom: 94px;
