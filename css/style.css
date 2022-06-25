@@ -1,9 +1,11 @@
 :root {
   --brand-color: #2196f3;
+  --brand-background: #2f303a;
+  --buttom-color: #f5f4fa;
 }
 
 .logo {
-  font-family: Ralewey;
+  font-family: Raleway;
   font-weight: 700;
   font-size: 26px;
   line-height: 1.91;
@@ -24,32 +26,34 @@
   font-family: Roboto;
   font-size: 16px;
   font-weight: 700;
-  color: white;
+  color: var(--button-color);
   background: var(--brand-color);
   line-height: 1.88;
 }
-.body {
+.s1 {
   color: white;
   text-align: center;
-  background: #2f303a;
+  background: var(--brand-background);
 }
 .title {
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
 }
+body {
+  font-family: Roboto;
+  color: #212121;
+  font-size: 16px;
+}
 .lorem {
   font-size: 14px;
   font-weight: 700;
-  color: #212121;
   line-height: 1;
 }
 h2 {
-  font-family: Roboto;
   font-size: 36px;
   font-weight: 700;
   line-height: 2.63;
-  color: #212121;
   text-align: center;
 }
 .p1 {
@@ -58,15 +62,12 @@ h2 {
   line-height: 1.71;
 }
 .name {
-  font-size: 16px;
   font-weight: 500;
   line-height: 1.19;
-  color: #212121;
 }
 
 .p2 {
   font-weight: 400;
-  font-size: 16px;
   line-height: 0.53;
 }
 .example {
@@ -76,7 +77,6 @@ h2 {
 }
 .p3 {
   font-weight: 400;
-  font-size: 16px;
   line-height: 1.88;
 }
 
@@ -106,18 +106,15 @@ h2 {
   padding-bottom: 94px;
 }
 .bw2 {
-  font-family: Roboto;
-  font-size: 16px;
   font-weight: 500;
-  background: #f5f4fa;
-  color: black;
+  background: var(--button-color);
   line-height: 1.62;
 }
 .bw2:hover {
   background-color: var(--brand-color);
 }
 footer {
-  background: #2f303a;
+  background: var(--brand-background);
   color: #f5f4fa;
   line-height: 1.71;
   font-size: 400;
@@ -126,7 +123,7 @@ footer {
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
-  color: #f5f4fa;
+  color: var(--butto-color);
 }
 .back:hover {
   color: var(--brand-color);
